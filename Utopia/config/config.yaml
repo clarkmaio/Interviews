@@ -1,0 +1,45 @@
+
+
+SEED: 1 # set null for a random seed
+
+# --------------------------
+# Modules to run
+# --------------------------
+run_modules:
+  analysis: True
+  forecast: True
+  forecast_bayesian: True
+
+date:
+  # Date format must be yyyymmdd
+  test_st: '20200101'
+
+# --------------------------
+# Forecast settings
+# --------------------------
+forecast_setting:
+
+  granularity: W # Choose between: D (daily), W (weekly), MS (monthly)
+  resample_operation: sum # Operation that will be applied in time resample phase: 'sum', 'mean'
+  track_id_list: [0, 1, 2, 3, 4,5]
+
+  D:
+    step_ahead: 10
+    calendar_features: ['sin_week', 'cos_week', 'sin_month', 'cos_month', 'sin_doy', 'cos_doy', 'day_idx']
+    autoregressive_train_step_size: 30
+  W:
+    step_ahead: 10
+    calendar_features: ['sin_week', 'cos_week', 'sin_month', 'cos_month', 'day_idx']
+    autoregressive_train_step_size: 30
+  MS:
+    step_ahead: 4
+    calendar_features: ['sin_month', 'cos_month', 'day_idx']
+    autoregressive_train_step_size: 10
+
+
+holiday_weight:
+  default: 1
+  summer: 5
+  christmas: 5
+
+
