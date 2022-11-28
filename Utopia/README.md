@@ -2,6 +2,9 @@
 In this repository you will find the code I've wrote for the data challenge as part of the interview for [**Data Scientist - Time Series Forecasting**](https://career.utopiamusic.com/jobs/1914847-data-scientist-time-series-forecasting) position.
 
 
+I failed the interview during the assessment step (I think.... actually they asked me to apply again at the beginning of 2023).
+
+
 
 ## Run the script
 To run the code just run the `run_main.py` script.
