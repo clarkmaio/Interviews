@@ -1,4 +1,4 @@
-# ENI Assessment
+# ENI
 This is the technical assessment I did after 2 online interviews for the position of **Data scientist** in the **Center of excellence Data Science Group**.
 
 I passed all the steps but at the end I've rejected the job because the salary was not high enough (~50k Euro).
