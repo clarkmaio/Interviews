@@ -19,4 +19,7 @@ To run it locally:
 streamlit run dashboard.py
 ```
 
+<img src = "https://github.com/clarkmaio/Interviews/blob/main/StarshipTechnologies/salary_expectation_dashboard.png" style="width:1000px;">
+
+
 
