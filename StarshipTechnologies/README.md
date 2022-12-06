@@ -6,3 +6,17 @@ I just a did a little dashboard to show my salary expectations because of a bet 
 
 I failed the interview at the second step.
 
+
+
+## How to run it
+The code is self contained.
+
+To run it locally:
+1. Install `steamlit` python package via `pip install streamlit`
+2. Run the following line from terminal:
+
+```
+streamlit run dashboard.py
+```
+
+
