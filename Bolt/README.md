@@ -13,4 +13,4 @@ For example I said "dictionary in Python are sorted object".
 <br>I don't know why I behaved like that, I guess I was not at the right level, and that's the reason of my insecurity.
 
 
-I have just a LOT to study... lets do it :)
+I have just ***A LOT*** to study... lets do it :)
