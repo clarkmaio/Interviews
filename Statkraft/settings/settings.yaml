@@ -1,0 +1,10 @@
+USGS_map:
+  dellas: '14105700'
+  deuschutes_river: '14103000'
+  john_day_river: '14048000'
+  umatilla_river: '14033500'
+
+
+plot_path: './output/plot/'
+report_path: './output/report/'
+
