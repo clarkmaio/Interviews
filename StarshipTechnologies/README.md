@@ -12,7 +12,7 @@ I failed the interview at the second step.
 The code is self contained.
 
 To run it locally:
-1. Install `steamlit` python package via `pip install streamlit`
+1. Install `streamlit` python package via `pip install streamlit`
 2. Run the following line from terminal:
 
 ```
